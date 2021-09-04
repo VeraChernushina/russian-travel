@@ -1,0 +1,7 @@
+.lead__image {
+  margin: 0 auto;
+  padding: 0;
+  width: 928px;
+  height: 580px;
+  display: flex;
+}
