@@ -8,3 +8,7 @@
   line-height: 22px;
   color: #fff;
 }
+
+.place__link:hover {
+  cursor: pointer;
+}

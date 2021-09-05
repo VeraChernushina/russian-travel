@@ -10,3 +10,11 @@
   grid-column-gap: 40px;
   grid-row-gap: 48px;
 }
+
+.place:first-child {
+  margin-top: 92px;
+}
+
+.place:last-child {
+  margin-bottom: 92px;
+}
