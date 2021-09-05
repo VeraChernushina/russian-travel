@@ -1,5 +1,6 @@
+/* 1280 */
 .intro__list {
-  margin: 0 0 92px;
+  margin: 0;
   padding: 0;
   list-style: none;
   max-width: 690px;
@@ -9,4 +10,19 @@
   font-style: normal;
   font-size: 12px;
   line-height: 18px;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+    margin-bottom: 64px;
+  }
 }

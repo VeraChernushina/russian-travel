@@ -1,7 +1,22 @@
+/* 1280 */
 .place__website {
   margin: 0;
   padding: 0;
   max-width: 456px;
   min-height: 46px;
   align-self: end;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+  }
 }

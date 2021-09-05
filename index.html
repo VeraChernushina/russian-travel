@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header page__header">
       <img class="header__logo" src="../russian-travel/images/__logo.svg" alt="">
       <ul class="header__lang-links">
         <li class="header__lang-link">Ru</li>
@@ -17,18 +17,15 @@
     </header>
 
     <main class="content">
-      <section class="lead">
+      <section class="lead content__lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках
         новостей, а здесь.</p>
-      <div class="lead__image">
-        <img class="lead__route" src="../russian-travel/images/Group 4.svg">
-      </div>
-
+      <img class="lead__image" src="../russian-travel/images/lead__image.png">
       <p class="lead__caption">ваша&nbsp;полка&nbsp;—&nbsp;верхняя</p>
     </section>
 
-    <section class="intro">
+    <section class="intro content__intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
@@ -40,7 +37,7 @@
       </ul>
     </section>
 
-    <section class="photo-grid">
+    <section class="photo-grid content__photo-grid">
       <img class="photo-grid__item" src="../russian-travel/images/photo-grid__train.jpg">
       <img class="photo-grid__item" src="../russian-travel/images/photo-grid__atharva-tulsi.jpg">
       <img class="photo-grid__item" src="../russian-travel/images/photo-grid__tuman.jpg">
@@ -56,7 +53,7 @@
     </section>
 
     <section class="places">
-      <div class="place">
+      <div class="place places__place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
@@ -74,7 +71,7 @@
         </div>
 
       </div>
-      <div class="place">
+      <div class="place places__place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
@@ -89,9 +86,9 @@
           об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
           в Мурманск.</p>
         </div>
-
       </div>
-      <div class="place">
+
+      <div class="place places__place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
@@ -108,7 +105,7 @@
         </div>
       </div>
 
-      <div class="place">
+      <div class="place places__place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
@@ -134,15 +131,17 @@
       </div>
     </section>
 
-    <section class="cover">
+    <section class="cover content__cover">
       <img class="cover__background" src="../russian-travel/images/cover__bcg.jpg">
       <div class="cover__overlay"></div>
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      <h2 class="cover__title">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">До Байкала «на&nbsp;собаках»</a>
+      </h2>
+      <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие от&nbsp;столицы&nbsp;до Байкала на электричках.</p>
     </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer page__footer">
         <nav class="footer__links">
           <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
           <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>

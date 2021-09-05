@@ -1,0 +1,18 @@
+/* 1280, 1024 */
+.content__photo-grid {
+  margin-bottom: 92px;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .content__photo-grid {
+    margin-bottom: 88px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .content__photo-grid {
+    margin-bottom: 64px;
+  }
+}

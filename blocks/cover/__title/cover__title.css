@@ -1,7 +1,9 @@
+/* 1280 */
 .cover__title {
   margin: 0 auto;
   padding: 245px 0 0 0;
   max-width: 560px;
+  min-height: 152px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -10,4 +12,17 @@
   text-align: center;
   display: flex;
   position: relative;
+  color: #fff;
+  text-decoration-line: none;
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px;
+    min-height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 33px;
+  }
 }

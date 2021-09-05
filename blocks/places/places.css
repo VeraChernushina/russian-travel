@@ -1,34 +1,33 @@
 /* 1280 */
-.cover {
+.places {
+  display: flex;
   margin: 0 auto;
   padding: 0;
-  max-width: 1184px;
-  min-height: 740px;
-  display: flex;
+  max-width: 984px;
+  min-height: 3392px;
   flex-direction: column;
-  position: relative;
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
-  .cover {
-    max-width: 100vw;
-    min-height: 640px;
+  .places {
+    max-width: 928px;
+    min-height: 3292px;
   }
 }
 
 /* 768 */
 @media screen and (max-width: 768px) {
-  .cover {
-    max-width: 100vw;
-    min-height: 480px;
+  .places {
+    max-width: 720px;
+    min-height: 2808px;
   }
 }
 
-/* 320 */
+/* 320px */
 @media screen and (max-width: 320px) {
-  .cover {
+  .places {
     max-width: 100vw;
-    min-height: 200px;
+    min-height: 5177px;
   }
 }
