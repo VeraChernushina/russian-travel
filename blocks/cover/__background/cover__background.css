@@ -2,7 +2,7 @@
 .cover__background {
   margin: 0;
   padding: 0;
-  width: 1184px;
+  width: calc(100vw - 2*48px);
   height: 740px;
   position: absolute;
 }
@@ -10,23 +10,23 @@
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .cover__background {
-    width: 100vw;
-    height: 640px;
+    width: 100%;
+    height: auto;
   }
 }
 
 /* 768 */
 @media screen and (max-width: 768px) {
   .cover__background {
-    width: 100vw;
-    height: 480px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
 /* 320 */
 @media screen and (max-width: 320px) {
   .cover__background {
-    width: 100vw;
-    height: 200px;
+    width: 100%;
+    height: auto;
   }
 }

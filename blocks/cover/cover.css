@@ -2,11 +2,12 @@
 .cover {
   margin: 0 auto;
   padding: 0;
-  max-width: 1184px;
+  max-width: calc(100vw - 2*48px);
   min-height: 740px;
   display: flex;
   flex-direction: column;
   position: relative;
+  justify-content: center;
 }
 
 /* 1024 */

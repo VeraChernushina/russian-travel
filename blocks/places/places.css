@@ -1,17 +1,16 @@
 /* 1280 */
 .places {
-  display: flex;
   margin: 0 auto;
   padding: 0;
-  max-width: 984px;
+  max-width: calc(100% - 2*148px);
   min-height: 3392px;
-  flex-direction: column;
+  box-sizing: border-box;
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
+    max-width: calc(100% - 2*48px);
     min-height: 3292px;
   }
 }
@@ -19,15 +18,23 @@
 /* 768 */
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
     min-height: 2808px;
   }
 }
 
-/* 320px */
+/* 425 */
+@media screen and (max-width: 425px) {
+  .places {
+    max-width: 100%;
+  }
+}
+
+
+/* 320 */
 @media screen and (max-width: 320px) {
   .places {
-    max-width: 100vw;
+    max-width: 100%;
     min-height: 5177px;
   }
 }
