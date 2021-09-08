@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 /* 768 */
@@ -19,7 +20,7 @@
 /* 320 */
 @media screen and (max-width: 320px) {
   .footer {
-    max-width: calc(100vw - 32px);
+    max-width: 320px;
     min-height: 310px;
     flex-direction: column;
     justify-content: space-between;

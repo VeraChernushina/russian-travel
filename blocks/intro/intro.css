@@ -3,6 +3,7 @@
   margin: 0 auto;
   max-width: calc(100vw - 2*148px);
   min-height: 429px;
+  box-sizing: border-box;
 }
 
 /* 1024 */

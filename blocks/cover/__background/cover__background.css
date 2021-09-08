@@ -4,7 +4,7 @@
   padding: 0;
   width: calc(100vw - 2*48px);
   height: 740px;
-  position: absolute;
+  position: relative;
 }
 
 /* 1024 */

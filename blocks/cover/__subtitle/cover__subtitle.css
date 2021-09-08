@@ -1,7 +1,7 @@
 /* 1280 */
 .cover__subtitle {
-  margin: 0 auto;
-  padding: 32px 0 0;
+  margin: 0;
+  padding: 0;
   max-width: 360px;
   font-family: Inter;
   font-style: normal;
@@ -9,25 +9,54 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  display: flex;
-  position: relative;
+  position: absolute;
+  top: 429px;
+  z-index: 1;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    top: 379px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    top: 299px;
+  }
 }
 
 /* 665 */
 @media screen and (max-width: 665px) {
   .cover__subtitle {
-    padding-top: 16px;
     line-height: 114%;
+    top: 259px;
   }
 }
+
+/* 575 */
+@media screen and (max-width: 575px) {
+  .cover__subtitle {
+    top: 219px;
+  }
+}
+
+/* 465 */
+@media screen and (max-width: 465px) {
+  .cover__subtitle {
+    top: 189px;
+  }
+}
+
 
 /* 320 */
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
     min-height: 48px;
-    padding-top: 16px;
     font-size: 14px;
-    line-height: 114%;
+    top: 119px;
   }
 }
