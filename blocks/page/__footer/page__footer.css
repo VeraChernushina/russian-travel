@@ -3,6 +3,13 @@
   padding-bottom: 24px;
 }
 
+/* 425 */
+@media screen and (max-width: 425px) {
+  .page__footer {
+    padding-left: 20px;
+  }
+}
+
 /* 320 */
 @media screen and (max-width: 320px) {
   .page__footer {
