@@ -5,6 +5,7 @@
   width: calc(100vw - 2*48px);
   height: 740px;
   position: absolute;
+  object-fit: cover;
 }
 
 /* 1024 */

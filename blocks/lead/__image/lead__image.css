@@ -3,6 +3,7 @@
   padding: 0;
   width: calc(100vw - 2*148px);
   display: flex;
+  object-fit: cover;
 }
 
 /* 1024 */
