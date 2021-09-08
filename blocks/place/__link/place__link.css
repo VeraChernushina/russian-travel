@@ -12,6 +12,10 @@
   color: #fff;
 }
 
+.place__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 /* 768 */
 @media screen and (max-width: 768) {
