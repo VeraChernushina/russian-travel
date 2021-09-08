@@ -11,7 +11,7 @@
   line-height: 76px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 /* 768 */
