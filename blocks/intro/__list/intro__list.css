@@ -20,8 +20,7 @@
 
 /* 320 */
 @media screen and (max-width: 320px) {
-  .intro__text {
+  .intro__list {
     max-width: 288px;
-    margin-bottom: 64px;
   }
 }
