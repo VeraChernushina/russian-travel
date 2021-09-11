@@ -1,13 +1,11 @@
-/* 1280, 1024 */
 .place__link {
   margin: 0;
   padding: 0;
   max-width: 456px;
-  min-height: 22px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 122%;
   color: #fff;
 }
@@ -15,26 +13,4 @@
 .place__link:hover {
   opacity: 0.8;
   cursor: pointer;
-}
-
-/* 768 */
-@media screen and (max-width: 768) {
-  .place__link {
-    max-width: 45.8333333vw;
-  }
-}
-
-/* 665 */
-@media screen and (max-width: 665px) {
-  .place__link {
-    font-size: 0.9rem;
-  }
-}
-
-/* 320 */
-@media screen and (max-width: 320) {
-  .place__link {
-    max-width: 90vw;
-    font-size: 1.125rem;
-  }
 }

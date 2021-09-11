@@ -1,28 +1,27 @@
 /* 1280 */
 .lead {
-  margin: 0 auto 0;
+  margin: 0 auto;
   padding: 0;
-  max-width: calc(100vw - 2*148px);
-  box-sizing: border-box;
+  width: calc(100% - 2*148px);
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: calc(100vw - 2*48px);
+    width: calc(100% - 2*48px);
   }
 }
 
 /* 768 */
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: calc(100vw - 48px);
+    width: calc(100% - 48px);
   }
 }
 
 /* 320 */
 @media screen and (max-width: 320px) {
   .lead {
-    max-width: 100vw;
+    width: 100%;
   }
 }

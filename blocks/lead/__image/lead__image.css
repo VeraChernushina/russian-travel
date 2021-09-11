@@ -1,28 +1,6 @@
 .lead__image {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  width: calc(100vw - 2*148px);
-  display: flex;
-}
-
-/* 1024 */
-@media screen and (max-width: 1024px) {
-  .lead__image {
-    width: calc(100vw - 2*48px);
-  }
-}
-
-
-/* 768 */
-@media screen and (max-width: 768px) {
-  .lead__image {
-    width: 100%;
-  }
-}
-
-/* 320 */
-@media screen and (max-width: 320px) {
-  .lead__image {
-    width: 100%;
-  }
+  width: 100%;
+  height: auto;
 }

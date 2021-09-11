@@ -2,28 +2,21 @@
 .place__image {
   margin: 0;
   padding: 0;
-  width: 35.9vw;
+  max-width: 460px;
   height: auto;
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: 42.9vw;
+    max-width: 440px;
   }
 }
 
 /* 768 */
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 44.3vw;
-  }
-}
-
-/* 425 */
-@media screen and (max-width: 425px) {
-  .place__image {
-    width: 100%;
+    max-width: 340px;
   }
 }
 

@@ -2,8 +2,8 @@
 .header {
   margin: 0 auto;
   padding: 0;
-  max-width: calc(100vw - 96px);
-  min-height: 52px;
+  max-width: 1184px;
+  width: calc(100% - 96px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,14 +13,12 @@
 /* 768 */
 @media screen and (max-width: 768px) {
   .header {
-    max-width: calc(100vw - 48px);
-  }
+    width: calc(100% - 48px);
 }
 
 /* 320 */
 @media screen and (max-width: 320px) {
   .header {
-    max-width: calc(100vw - 32px);
-    min-height: 42px;
+    width: calc(100% - 32px);
   }
 }
