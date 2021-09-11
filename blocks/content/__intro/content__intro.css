@@ -1,7 +1,15 @@
-/* 1280, 1024 */
+/* 1280 */
 .content__intro {
-  margin-bottom: 92px;
+  margin-bottom: 95px;
 }
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .content__intro {
+    margin-bottom: 100px;
+  }
+}
+
 
 /* 768 */
 @media screen and (max-width: 768px) {
@@ -11,7 +19,7 @@
 }
 
 /* 320 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .content__intro {
     margin-bottom: 64px;
   }

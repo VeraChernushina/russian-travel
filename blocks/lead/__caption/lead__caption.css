@@ -1,5 +1,5 @@
 .lead__caption {
-  margin: 8px 0 0;
+  margin: 5px 0 0;
   padding: 0;
   max-width: 158px;
   font-family: Inter;
@@ -9,3 +9,17 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   }
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}

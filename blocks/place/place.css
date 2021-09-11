@@ -5,8 +5,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  column-gap: 40px;
-  row-gap: 48px;
+  column-gap: 17px;
+  row-gap: 50px;
 }
 
 /* 1024 */
@@ -19,7 +19,8 @@
 /* 768 */
 @media screen and (max-width: 768px) {
   .place {
-    column-gap: 28px;
+    column-gap: 16px;
+    row-gap: 45px;
   }
 }
 

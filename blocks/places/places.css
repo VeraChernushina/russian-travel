@@ -19,14 +19,6 @@
   }
 }
 
-/* 425 */
-@media screen and (max-width: 425px) {
-  .places {
-    width: 100%;
-  }
-}
-
-
 /* 320 */
 @media screen and (max-width: 320px) {
   .places {

@@ -10,6 +10,13 @@
   box-sizing: border-box;
 }
 
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+
+}
+
 /* 768 */
 @media screen and (max-width: 768px) {
   .header {
