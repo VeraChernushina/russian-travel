@@ -6,24 +6,23 @@
   height: auto;
 }
 
-/* 1024 */
 @media screen and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
+    width: 42.96875vw;
   }
 }
 
-/* 768 */
 @media screen and (max-width: 768px) {
   .place__image {
-    max-width: 340px;
+    width: 44.2708333vw;
   }
 }
 
-/* 320px */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__image {
-    width: 100%;
+    width: 100vw;
     margin-bottom: 32px;
+    object-fit: cover;
   }
 }

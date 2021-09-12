@@ -19,8 +19,21 @@
   }
 }
 
-/* 320 */
-@media screen and (max-width: 320px) {
+/* 568 */
+@media screen and (max-width: 568px) {
+  .places {
+    width: calc(100% - 32px);
+  }
+}
+
+/* 500 */
+@media screen and (max-width: 500px) {
+  .places {
+    width: calc(100% - 16px);
+  }
+}
+
+@media screen and (max-width: 425px) {
   .places {
     width: 100%;
   }

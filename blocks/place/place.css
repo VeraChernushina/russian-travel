@@ -24,8 +24,21 @@
   }
 }
 
-/* 320px */
-@media screen and (max-width: 320px) {
+/* 568 */
+@media screen and (max-width: 568px) {
+  .place {
+    column-gap: 12px;
+  }
+}
+
+/* 500 */
+@media screen and (max-width: 500px) {
+  .place {
+    column-gap: 8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .place {
     display: flex;
     flex-direction: column;

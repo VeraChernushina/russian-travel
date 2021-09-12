@@ -8,17 +8,16 @@
   flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-/* 768 */
 @media screen and (max-width: 768px) {
   .footer {
     width: calc(100% - 2*24px);
   }
 }
 
-/* 320 */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .footer {
     width: 100%;
     flex-direction: column;
