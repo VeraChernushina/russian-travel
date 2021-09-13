@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .content__intro {
     margin-bottom: 63px;
   }

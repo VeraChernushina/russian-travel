@@ -25,11 +25,11 @@
   right: 0;
   bottom: 0;
   left: 0;
+  transition: 2s ease-in;
 }
 
 .cover__background:hover::before {
   opacity: 0.8;
-  transition: 2s ease-in;
 }
 
 /* 1024 */
@@ -50,5 +50,6 @@
 @media screen and (max-width: 320px) {
   .cover__background {
   min-height: 200px;
+  justify-content: flex-start;
   }
 }
